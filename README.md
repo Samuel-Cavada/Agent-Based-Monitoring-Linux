@@ -53,7 +53,7 @@
 ---
 
 ### Step 1: Provision VM and Agent Group
-> - Created a secure Linux VM (do **not** use labuser/Cyberlab123!)
+> - Provisioned a Linux virtual machine in Microsoft Azure. [See full provisioning steps ↗](https://github.com/Samuel-Cavada/Azure-VM-Build-Linux) (Ctrl+Click to open in a new tab).
 > - Created an Agent Group under:  
   `Settings → Sensors → Nessus Agents → Agent Groups → +Add Agent Group`
 
