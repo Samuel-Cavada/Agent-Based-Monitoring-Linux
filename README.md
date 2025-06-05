@@ -61,24 +61,24 @@
 
 ---
 ### Step 2: Install Nessus Agent
-> - Logged into Tenable.io portal at [https://cloud.tenable.com](https://cloud.tenable.com)
+
+> - Logged into the Tenable.io portal at [https://cloud.tenable.com](https://cloud.tenable.com)  
 > - Navigated to:  
-  `Settings → Sensors → Nessus Agents → + Add Nessus Agent`
-> - Copied the Linux Bash install script, edited parameters as needed:
-
-
-> - Ran the script in bash as administrator (sudo) inside the VM
+  `Settings → Sensors → Nessus Agents → + Add Nessus Agent`  
+> - Copied the Linux Bash install script and edited parameters as needed  
+> - Ran the script in Bash as an administrator (`sudo`) inside the VM  
 
 ![Step 2](assets/images/step2.jpg)
 
 ---
 
 ### Step 3: Create and Trigger Agent Scan
+
 `Scans → My Scans → Create Scan → Nessus Agent → Basic Agent Scan`
 
-- **Name**: `Custom Name`
-- **Agent Group**: `Your Agent Group Name`
-- **Scan Type**  
+- **Name**: `Custom Name`  
+- **Agent Group**: `Your Agent Group Name`  
+- **Scan Type**:  
   - **Triggered Scan**  
     - Select trigger: `Filename`  
     - Enter value: `File name & file type (e.g., Start.txt)`
@@ -88,13 +88,12 @@
 ---
 
 ### Step 4: Monitor and Analyze Results
-- Monitored agent linking under:
-  `Settings → Sensors → Nessus Agents`
+
+- Monitored agent linking under:  
+  `Settings → Sensors → Nessus Agents`  
 - Checked the “Scans” tab in Tenable to view scan status and results:  
-  `Scans → My Scans → Your Agent Scan Name`
-
+  `Scans → My Scans → Your Agent Scan Name`  
 - Waited 30–60 minutes for full vulnerability data to populate
-
 
 
 ---
