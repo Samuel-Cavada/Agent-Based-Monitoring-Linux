@@ -84,7 +84,8 @@
     - Select trigger: `Filename`  
     - Enter value: `File name & file type (e.g., Start.txt)`
 
-![Step 3](assets/images/step3.jpg)
+![Step 3](https://github.com/Samuel-Cavada/Agent-Based-Monitoring-Linux/blob/main/images/ABMW10.png)
+![Step 3](https://github.com/Samuel-Cavada/Agent-Based-Monitoring-Linux/blob/main/images/ABMW221.png)
 
 ---
 
@@ -96,6 +97,8 @@
   `Scans → My Scans → Your Agent Scan Name`  
 - Waited 30–60 minutes for full vulnerability data to populate
 
+![Step 4](https://github.com/Samuel-Cavada/Agent-Based-Monitoring-Linux/blob/main/images/ABMW24.png)
+![Step 4](https://github.com/Samuel-Cavada/Agent-Based-Monitoring-Windows/blob/main/images/ABMW24.png)
 
 ---
 
