@@ -60,25 +60,42 @@
 ![Step 1](assets/images/step1.jpg)
 
 ---
-
 ### Step 2: Install Nessus Agent
-> - Logged into Tenable.io at [https://cloud.tenable.com](https://cloud.tenable.com)
-> - Started provisioning a Nessus Agent  
-> - Edited and copied the following Bash command:
+> - Logged into Tenable.io portal at [https://cloud.tenable.com](https://cloud.tenable.com)
+> - Navigated to:  
+  `Settings → Sensors → Nessus Agents → + Add Nessus Agent`
+> - Copied the Linux Bash install script, edited parameters as needed:
 
 
-> - Exported results if needed  
-> - Deleted scan, agent group, unlinked agent, and deleted VM
+> - Ran the script in bash as administrator (sudo) inside the VM
 
-![Step 4](assets/images/step4.jpg)
+![Step 2](assets/images/step2.jpg)
 
 ---
 
-## Outcomes and Lessons Learned
-- **Technical Insight:** Trigger-based agent scans are effective for segmented or remote environments where persistent connections aren’t feasible.
-- **Configuration Skills:** Practiced editing curl commands and configuring Nessus triggers in Linux.
-- **Troubleshooting:** Managed Linux service issues and file permissions to ensure scan execution.
-- **Takeaway:** Agent-based scanning is a lightweight and flexible method for vulnerability monitoring across mixed environments.
+### Step 3: Create and Trigger Agent Scan
+`Scans → My Scans → Create Scan → Nessus Agent → Basic Agent Scan`
+
+- **Name**: `Custom Name`
+- **Agent Group**: `Your Agent Group Name`
+- **Scan Type**  
+  - **Triggered Scan**  
+    - Select trigger: `Filename`  
+    - Enter value: `File name & file type (e.g., Start.txt)`
+
+![Step 3](assets/images/step3.jpg)
+
+---
+
+### Step 4: Monitor and Analyze Results
+- Monitored agent linking under:
+  `Settings → Sensors → Nessus Agents`
+- Checked the “Scans” tab in Tenable to view scan status and results:  
+  `Scans → My Scans → Your Agent Scan Name`
+
+- Waited 30–60 minutes for full vulnerability data to populate
+
+
 
 ---
 
