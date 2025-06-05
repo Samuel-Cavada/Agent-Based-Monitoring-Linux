@@ -40,7 +40,7 @@
 ## Environment Setup
 > A Linux VM was provisioned using a secure username and password. The Nessus Agent was installed and linked to a cloud-based Tenable.io environment. A trigger file was used to initiate the scan locally from the agent, ensuring that vulnerability data was collected and uploaded back to the portal.
 
-![Environment Setup](assets/images/setup.jpg)
+![Environment Setup](https://github.com/Samuel-Cavada/Agent-Based-Monitoring-Linux/blob/main/images/ABMW1.png)
 
 ---
 
@@ -53,8 +53,8 @@
 ---
 
 ### Step 1: Provision VM and Agent Group
-> - Provisioned a Linux virtual machine in Microsoft Azure. [See full provisioning steps ↗](https://github.com/Samuel-Cavada/Azure-VM-Build-Linux) (Ctrl+Click to open in a new tab).
-> - Created an Agent Group under:  
+- Provisioned a Linux virtual machine in Microsoft Azure. [See full provisioning steps ↗](https://github.com/Samuel-Cavada/Azure-VM-Build-Linux) (Ctrl+Click to open in a new tab).
+- Created an Agent Group under:  
   `Settings → Sensors → Nessus Agents → Agent Groups → +Add Agent Group`
 
 ![Step 1](assets/images/step1.jpg)
@@ -62,13 +62,14 @@
 ---
 ### Step 2: Install Nessus Agent
 
-> - Logged into the Tenable.io portal at [https://cloud.tenable.com](https://cloud.tenable.com)  
-> - Navigated to:  
+- Logged into the Tenable.io portal at [https://cloud.tenable.com](https://cloud.tenable.com)  
+- Navigated to:  
   `Settings → Sensors → Nessus Agents → + Add Nessus Agent`  
-> - Copied the Linux Bash install script and edited parameters as needed  
-> - Ran the script in Bash as an administrator (`sudo`) inside the VM  
+- Copied the Linux Bash install script and edited parameters as needed  
+- Ran the script in Bash as an administrator (`sudo`) inside the VM  
 
-![Step 2](assets/images/step2.jpg)
+![Step 2](https://github.com/Samuel-Cavada/Agent-Based-Monitoring-Windows/blob/main/images/ABMW13.png)
+![Step 2](https://github.com/Samuel-Cavada/Agent-Based-Monitoring-Linux/blob/main/images/ABMW18.png)
 
 ---
 
