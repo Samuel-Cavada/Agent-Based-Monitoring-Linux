@@ -57,7 +57,7 @@
 - Created an Agent Group under:  
   `Settings → Sensors → Nessus Agents → Agent Groups → +Add Agent Group`
 
-![Step 1](assets/images/step1.jpg)
+![Step 1](https://github.com/Samuel-Cavada/Agent-Based-Monitoring-Linux/blob/main/images/ABMW5.png)
 
 ---
 ### Step 2: Install Nessus Agent
